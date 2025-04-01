@@ -1,0 +1,18 @@
+[tool.pylint.format]
+max-line-length = 90
+
+[tool.pylint.messages]
+disable = [
+    "too-few-public-methods",
+    "unnecessary-pass",
+    "missing-module-docstring"
+]
+
+[tool.black]
+line-length = 90
+
+[tool.pytest.ini_options]
+#addopts = [
+#    "--alluredir", "allure-results",
+#    "--clean-alluredir"
+#]
